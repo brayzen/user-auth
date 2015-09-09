@@ -1,28 +1,14 @@
-== README
+USER-AUTH
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Followed along with the website: http://www.emilyplatzer.io/2014/06/29/user-authentication.html
 
-Things you may want to cover:
+Emily was a good guide.
 
-* Ruby version
+I didn't try to write out all the tests or the views.  I did write everything else.
 
-* System dependencies
+Couple of things I really appreciated about this exercise:
+1. Got to use the `git add -p`, and really like this staging technique.
 
-* Configuration
+2.  Got to utilize rspec, which I can say I'm very very indifferent about.  Rspec did have something I hadn't seen before which was the PENDING line command which will delay a test until you want it ran.  I can forsee that being useful in the future.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+All in all, I don't feel like I learned too much about the 'authentication' portion we were supposed to learn.
