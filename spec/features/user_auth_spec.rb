@@ -14,7 +14,6 @@ feature 'Homepage' do
   end
 
   scenario 'User can logout' do
-    pending
     email_address = 'branwyn@example.com'
     welcome_message = "Welcome to the lending library #{email_address}"
     visit '/'
@@ -29,7 +28,6 @@ feature 'Homepage' do
   end
 
   scenario 'User can login with registered email and password' do
-    pending
     email_address = 'branwyn@example.com'
     password = 'password'
     welcome_message = "Welcome to the lending library #{email_address}"
@@ -48,7 +46,6 @@ feature 'Homepage' do
   end
 
   scenario 'User cannot login if their email address does not exist' do
-    pending
     email_address = 'branwyn@example.com'
     password = '123456'
     visit '/'
@@ -60,7 +57,6 @@ feature 'Homepage' do
   end
 
   scenario 'User cannot sign in with an invalid email and/or password' do
-    pending
     email_address = 'branwyn@example.com'
     password = '123456'
     visit '/'
